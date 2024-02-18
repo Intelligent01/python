@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: 127.0.0.1:8889
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Content-Type: {type}
+Content-Length: 648
+
+{body}
+
+content-type: text/html; charset=utf-8
